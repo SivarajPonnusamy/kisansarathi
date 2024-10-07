@@ -10,6 +10,8 @@ public class Individual_Message extends Base_test {
 	public void individualMessage() {
 		IndividualMessage im = new IndividualMessage(driver);
 		im.messagetab();
+		im.mobileNumber();
+		im.keywordContent();
 	}
 
 }

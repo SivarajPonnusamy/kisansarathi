@@ -82,20 +82,41 @@ public class UsersManagement {
 
 	}
 
-	public void specificUsers() {
+	public void specificUsers() throws InterruptedException {
 		String buttonText ="ATARI Director";
 		ldriver.findElement(By.xpath("//button[contains(text(), '" + buttonText + "')]")).click();
 		//"//td[normalize-space()='" + mobileNumber + "']//span[@title='Click to message']"
 		String mobileNumber ="9968209776";
 		ldriver.findElement(By.xpath("//td[normalize-space()='" + mobileNumber + "']//span[@title='Click to message']")).click();
+		// Check button
 		ldriver.findElement(By.xpath("//input[@id='ajaxbtn']")).click();
 		
 		
-/* ldriver.findElement(By.xpath("//body/div[1]/div[2]/form[1]/div[1]/div[1]"
-			+ "/div[2]/div[6]/div[1]/div[1]/span[1]/input[2]")).sendKeys("a"); */
+		
 
+		
+		ldriver.findElement(By.xpath("//input[@placeholder='Enter Keywords']")).sendKeys("A");
+		List<WebElement>keywords=ldriver.findElements(By.xpath("//div[@class='tt-menu tt-open']//div"));
+		System.out.println("Size of the suggest keyword: "+keywords.size());
 
-
+		for(WebElement keyword:keywords) {
+			System.out.println("asbcds: "+keyword.getText());
+			if(keyword.getText().equalsIgnoreCase("Agriculture")) {
+				
+				keyword.click();
+				break;
+				
+			}
+			
+			
+			
+		}
+		
+        Thread.sleep(3000);
+        
+        
+        
+		
 		ldriver.findElement(By.xpath("//input[@type='radio']")).click();
 		ldriver.findElement(By.xpath("//textarea[@id='msgbox']")).sendKeys("abcdefghijklmnopqrstuvwxyz");
 		

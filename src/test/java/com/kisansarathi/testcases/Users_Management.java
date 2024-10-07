@@ -7,7 +7,7 @@ import com.kisansarathi.pageobjects.UsersManagement;
 
 public class Users_Management extends Base_test {
 	@Test
-	public void usersmanagement() {
+	public void usersmanagement() throws InterruptedException {
 		UsersManagement um = new UsersManagement(driver);
 		um.usersmanagementSideNavigationBar();
 		um.myatariandkvks();

@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kisansarathi.testcases.UsersManagement_FarmersList">
+      <class name="com.kisansarathi.testcases.Individual_Message">
         <methods>
           <include name="driverQuit"/>
           <include name="tearDown"/>
-          <include name="usersmanagementFarmersList"/>
           <include name="setUp"/>
+          <include name="individualMessage"/>
         </methods>
-      </class> <!-- com.kisansarathi.testcases.UsersManagement_FarmersList -->
+      </class> <!-- com.kisansarathi.testcases.Individual_Message -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

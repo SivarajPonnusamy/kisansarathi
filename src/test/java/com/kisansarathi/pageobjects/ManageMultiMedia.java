@@ -3,6 +3,7 @@ package com.kisansarathi.pageobjects;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -123,7 +124,7 @@ public class ManageMultiMedia {
 		nextbutton.click();
 	}
 
-	public void draftdetails() {
+	public void draftdetails() throws InterruptedException {
 		wait = new WebDriverWait(ldriver, 50);
 		String id_draft = draftid.getText();
 		System.out.println("Draft_id:" + id_draft);
@@ -132,12 +133,13 @@ public class ManageMultiMedia {
 		ldriver.findElement(By.xpath("//a[@id='pills-profile-tab']")).click();
 		ldriver.findElement(By.xpath("//textarea[@id='select']")).sendKeys("9092147170");
 		ldriver.findElement(By.xpath("//input[@id='ajaxbtn']")).click();
+		
 
-		WebElement memberdetails = ldriver
-				.findElement(By.xpath("//body/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]"
-						+ "/form[1]/div[1]/div[1]/div[2]/div[1]/div[1]"));
+		/*WebElement memberdetails = ldriver
+				.findElement(By.xpath("//body/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[2]/div[1]/div[1]"));
+
 		wait.until(ExpectedConditions.elementToBeSelected(memberdetails));
-
+		System.out.println("1234466666");
 		String actual_memberdetails = memberdetails.getText();
 		System.out.println("12344" + actual_memberdetails);
 		String expected_memberdetails = "Mobile Number :-  9092147170 Name :-  Narayanan (Farmer) Response :-  All Mobile Numbers Are Valid";
@@ -145,7 +147,14 @@ public class ManageMultiMedia {
 		// should be equal");
 		if (actual_memberdetails.contains(expected_memberdetails)) {
 			ldriver.findElement(By.xpath("//input[@id='btn']")).click();
-		}
+		}*/
+		
+		ldriver.findElement(By.xpath("//input[@id='btn']")).click();
+		Thread.sleep(5000);
+		Alert alert = ldriver.switchTo().alert();
+		String alertText=alert.getText();
+		System.out.println("Alert text: " + alertText);
+		alert.accept();
 
 	}
 

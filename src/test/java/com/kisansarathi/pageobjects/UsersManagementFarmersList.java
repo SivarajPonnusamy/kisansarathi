@@ -93,9 +93,28 @@ public class UsersManagementFarmersList {
 
 	public void mess_selection() {
 		ldriver.findElement(By.xpath("//thead/tr[2]/td[3]/a[1]/button[1]/span[1]")).click();
+		// check button 
 		ldriver.findElement(By.xpath("//input[@id='ajaxbtn']")).click();
-		ldriver.findElement(By.xpath("//body/div[1]/div[2]/form[1]/div[1]/div[1]"
-				+ "/div[2]/div[6]/div[1]/div[1]")).sendKeys("qwerty");
+		
+		/*ldriver.findElement(By.xpath("//body/div[1]/div[2]/form[1]/div[1]/div[1]"
+				+ "/div[2]/div[6]/div[1]/div[1]")).sendKeys("qwerty");*/
+
+		ldriver.findElement(By.xpath("//input[@placeholder='Enter Keywords']")).sendKeys("A");
+		List<WebElement>keywords=ldriver.findElements(By.xpath("//div[@class='tt-menu tt-open']//div"));
+		System.out.println("Size of the suggest keyword: "+keywords.size());
+
+		for(WebElement keyword:keywords) {
+			System.out.println("asbcds: "+keyword.getText());
+			if(keyword.getText().equalsIgnoreCase("Agriculture")) {
+				
+				keyword.click();
+				break;
+				
+			}
+			
+			
+			
+		}
 
 		ldriver.findElement(By.xpath("//input[@type='radio']")).click();
 

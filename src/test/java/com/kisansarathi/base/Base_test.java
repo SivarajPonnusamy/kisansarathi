@@ -48,8 +48,10 @@ public class Base_test {
 			String file1 = System.getProperty("user.dir") + "/src/test/resources/configfiles/url.properties";
 
 			FileInputStream read1 = new FileInputStream(file1);
-
 			prop.load(read1);
+		}
+
+			
 			if (prop.getProperty("browser").equalsIgnoreCase("chrome")) {
 
 				System.out.println("Browser value from configfile: " + prop.getProperty("browser"));
@@ -96,20 +98,32 @@ public class Base_test {
 			login.nextButton();
 			login.setpinNo(pinno);
 			login.loginButton();
-		}
+		
 	}
 
 	@AfterClass
 	public void tearDown() {
+		  if (driver != null) {
+		driver.quit();
 
-		driver.close();
+		//driver.close();
 		System.out.println("BSF testing Completed");
 	}
+	}
 
-	@AfterTest
+	/*@AfterTest
 	public void driverQuit() {
 		driver.quit();
 		System.out.println("Driver get quit successfully after test completion...");
-	}
+	}*/
 
 }
+
+
+
+
+
+
+
+
+

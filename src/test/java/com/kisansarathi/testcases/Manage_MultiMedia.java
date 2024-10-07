@@ -7,7 +7,7 @@ import com.kisansarathi.pageobjects.ManageMultiMedia;
 
 public class Manage_MultiMedia extends Base_test{
 	@Test
-	public void manageMultimedia() {
+	public void manageMultimedia() throws InterruptedException {
 		ManageMultiMedia mm = new ManageMultiMedia(driver);
 		mm.multimediaSideNavigationBar();
 		mm.createAdvisory();
@@ -18,6 +18,7 @@ public class Manage_MultiMedia extends Base_test{
 		mm.titlefield();
 		mm.description();
 		mm.draftdetails();
-	}
+		Thread.sleep(5000);
+		}
 
 }
