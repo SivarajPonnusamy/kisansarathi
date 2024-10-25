@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kisansarathi.testcases.Individual_Message">
+      <class name="com.kisansarathi.testcases.Dash_Board">
         <methods>
-          <include name="driverQuit"/>
+          <include name="dashboard" invocation-numbers="1 2"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="individualMessage"/>
         </methods>
-      </class> <!-- com.kisansarathi.testcases.Individual_Message -->
+      </class> <!-- com.kisansarathi.testcases.Dash_Board -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

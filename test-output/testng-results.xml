@@ -1,109 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="5" failed="4" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-07T14:26:57 IST" name="Suite" finished-at="2024-10-07T14:38:48 IST" duration-ms="710625">
+  <suite started-at="2024-10-25T16:40:10 IST" name="Default suite" finished-at="2024-10-25T16:42:01 IST" duration-ms="110774">
     <groups>
     </groups>
-    <test started-at="2024-10-07T14:26:57 IST" name="Test" finished-at="2024-10-07T14:38:48 IST" duration-ms="710625">
-      <class name="com.kisansarathi.testcases.Manage_District">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kisansarathi.testcases.Manage_District@17f62e33]" started-at="2024-10-07T14:36:45 IST" name="setUp" finished-at="2024-10-07T14:37:12 IST" duration-ms="27421" status="PASS">
+    <test started-at="2024-10-25T16:40:10 IST" name="Default test" finished-at="2024-10-25T16:42:01 IST" duration-ms="110774">
+      <class name="com.kisansarathi.testcases.Dash_Board">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kisansarathi.testcases.Dash_Board@7526515b]" started-at="2024-10-25T16:40:10 IST" name="setUp" finished-at="2024-10-25T16:40:44 IST" duration-ms="33628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="managedistrict()[pri:0, instance:com.kisansarathi.testcases.Manage_District@17f62e33]" started-at="2024-10-07T14:37:12 IST" name="managedistrict" finished-at="2024-10-07T14:37:38 IST" duration-ms="26257" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- managedistrict -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisansarathi.testcases.Manage_District@17f62e33]" started-at="2024-10-07T14:37:38 IST" name="tearDown" finished-at="2024-10-07T14:37:38 IST" duration-ms="234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.kisansarathi.testcases.Manage_District -->
-      <class name="com.kisansarathi.testcases.UsersManagement_FarmersList">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kisansarathi.testcases.UsersManagement_FarmersList@173ed316]" started-at="2024-10-07T14:32:58 IST" name="setUp" finished-at="2024-10-07T14:33:25 IST" duration-ms="26756" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="usersmanagementFarmersList()[pri:0, instance:com.kisansarathi.testcases.UsersManagement_FarmersList@173ed316]" started-at="2024-10-07T14:33:25 IST" name="usersmanagementFarmersList" finished-at="2024-10-07T14:34:32 IST" duration-ms="66965" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- usersmanagementFarmersList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisansarathi.testcases.UsersManagement_FarmersList@173ed316]" started-at="2024-10-07T14:34:32 IST" name="tearDown" finished-at="2024-10-07T14:34:32 IST" duration-ms="261" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.kisansarathi.testcases.UsersManagement_FarmersList -->
-      <class name="com.kisansarathi.testcases.Users_Management">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kisansarathi.testcases.Users_Management@69e153c5]" started-at="2024-10-07T14:31:04 IST" name="setUp" finished-at="2024-10-07T14:31:31 IST" duration-ms="26847" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="usersmanagement()[pri:0, instance:com.kisansarathi.testcases.Users_Management@69e153c5]" started-at="2024-10-07T14:31:31 IST" name="usersmanagement" finished-at="2024-10-07T14:32:58 IST" duration-ms="86970" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- usersmanagement -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisansarathi.testcases.Users_Management@69e153c5]" started-at="2024-10-07T14:32:58 IST" name="tearDown" finished-at="2024-10-07T14:32:58 IST" duration-ms="264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.kisansarathi.testcases.Users_Management -->
-      <class name="com.kisansarathi.testcases.Farmers_Registration">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kisansarathi.testcases.Farmers_Registration@7674f035]" started-at="2024-10-07T14:26:57 IST" name="setUp" finished-at="2024-10-07T14:27:26 IST" duration-ms="28910" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="farmersRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.kisansarathi.testcases.Farmers_Registration@7674f035]" started-at="2024-10-07T14:27:29 IST" name="farmersRegistration" data-provider="FarmerRegistration" finished-at="2024-10-07T14:28:41 IST" duration-ms="72426" status="FAIL">
+        <test-method signature="dashboard(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.kisansarathi.testcases.Dash_Board@7526515b]" started-at="2024-10-25T16:40:46 IST" name="dashboard" data-provider="DashBoard" finished-at="2024-10-25T16:41:58 IST" duration-ms="72350" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Kavin]]>
+                <![CDATA[Amma1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[32]]>
+                <![CDATA[Appa1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[8765431200]]>
+                <![CDATA[]]>
               </value>
             </param>
-            <param index="3">
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+        <test-method signature="dashboard(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.kisansarathi.testcases.Dash_Board@7526515b]" started-at="2024-10-25T16:41:58 IST" name="dashboard" data-provider="DashBoard" finished-at="2024-10-25T16:42:00 IST" duration-ms="1125" status="FAIL">
+          <params>
+            <param index="0">
               <value>
-                <![CDATA[87,MGPalayam,India]]>
+                <![CDATA[Amma2]]>
               </value>
             </param>
-            <param index="4">
+            <param index="1">
               <value>
-                <![CDATA[641107]]>
+                <![CDATA[Appa2]]>
               </value>
             </param>
-            <param index="5">
+            <param index="2">
               <value>
-                <![CDATA[2.87]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <input name="submit_basic" class="btn btn-primary btn-lg" id="btn_basic" type="submit" value="Save" disabled=""> is not clickable at point (292, 689). Other element would receive the click: <form enctype="multipart/form-data" id="validate123" action="/web/index.php?r=expert/farmerregister" method="post" novalidate="novalidate">...</form>
-  (Session info: chrome=129.0.6668.90)
+              <![CDATA[element click intercepted: Element <span class="xn-text">...</span> is not clickable at point (78, 212). Other element would receive the click: <div class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="bootpopup-title" style="display: block;">...</div>
+  (Session info: chrome=130.0.6723.70)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SIVARAJ', ip: '192.168.31.190', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\sivar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3ce6f7343f5eee4e86511f08eaf003f7]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\sivar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6157fc3b02a50fac5c29100faa467e92]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input name="submit_basic" class="btn btn-primary btn-lg" id="btn_basic" type="submit" value="Save" disabled=""> is not clickable at point (292, 689). Other element would receive the click: <form enctype="multipart/form-data" id="validate123" action="/web/index.php?r=expert/farmerregister" method="post" novalidate="novalidate">...</form>
-  (Session info: chrome=129.0.6668.90)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="xn-text">...</span> is not clickable at point (78, 212). Other element would receive the click: <div class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="bootpopup-title" style="display: block;">...</div>
+  (Session info: chrome=130.0.6723.70)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SIVARAJ', ip: '192.168.31.190', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\sivar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3ce6f7343f5eee4e86511f08eaf003f7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\sivar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6157fc3b02a50fac5c29100faa467e92
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -115,8 +79,12 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at com.kisansarathi.pageobjects.FarmerRegistration.saveButton(FarmerRegistration.java:206)
-at com.kisansarathi.testcases.Farmers_Registration.farmersRegistration(Farmers_Registration.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at com.kisansarathi.pageobjects.DashBoard.dashBoardSideNavigationBar(DashBoard.java:29)
+at com.kisansarathi.testcases.Dash_Board.dashboard(Dash_Board.java:17)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -148,58 +116,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- farmersRegistration -->
-        <test-method signature="farmersRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.kisansarathi.testcases.Farmers_Registration@7674f035]" started-at="2024-10-07T14:28:41 IST" name="farmersRegistration" data-provider="FarmerRegistration" finished-at="2024-10-07T14:29:52 IST" duration-ms="71082" status="FAIL">
+        </test-method> <!-- dashboard -->
+        <test-method signature="dashboard(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.kisansarathi.testcases.Dash_Board@7526515b]" started-at="2024-10-25T16:42:00 IST" name="dashboard" data-provider="DashBoard" finished-at="2024-10-25T16:42:01 IST" duration-ms="1161" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Sounder]]>
+                <![CDATA[amma3]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[31]]>
+                <![CDATA[appa3]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[8760031276]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[234, Adbulla.India]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[641108]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[4.8]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <input name="submit_basic" class="btn btn-primary btn-lg" id="btn_basic" type="submit" value="Save" disabled=""> is not clickable at point (292, 689). Other element would receive the click: <form enctype="multipart/form-data" id="validate123" action="/web/index.php?r=expert/farmerregister" method="post" novalidate="novalidate">...</form>
-  (Session info: chrome=129.0.6668.90)
+              <![CDATA[element click intercepted: Element <span class="xn-text">...</span> is not clickable at point (78, 212). Other element would receive the click: <div class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="bootpopup-title" style="display: block;">...</div>
+  (Session info: chrome=130.0.6723.70)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SIVARAJ', ip: '192.168.31.190', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\sivar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3ce6f7343f5eee4e86511f08eaf003f7]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\sivar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6157fc3b02a50fac5c29100faa467e92]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input name="submit_basic" class="btn btn-primary btn-lg" id="btn_basic" type="submit" value="Save" disabled=""> is not clickable at point (292, 689). Other element would receive the click: <form enctype="multipart/form-data" id="validate123" action="/web/index.php?r=expert/farmerregister" method="post" novalidate="novalidate">...</form>
-  (Session info: chrome=129.0.6668.90)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="xn-text">...</span> is not clickable at point (78, 212). Other element would receive the click: <div class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="bootpopup-title" style="display: block;">...</div>
+  (Session info: chrome=130.0.6723.70)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SIVARAJ', ip: '192.168.31.190', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\sivar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3ce6f7343f5eee4e86511f08eaf003f7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\sivar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6157fc3b02a50fac5c29100faa467e92
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -211,8 +164,12 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at com.kisansarathi.pageobjects.FarmerRegistration.saveButton(FarmerRegistration.java:206)
-at com.kisansarathi.testcases.Farmers_Registration.farmersRegistration(Farmers_Registration.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at com.kisansarathi.pageobjects.DashBoard.dashBoardSideNavigationBar(DashBoard.java:29)
+at com.kisansarathi.testcases.Dash_Board.dashboard(Dash_Board.java:17)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -244,220 +201,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- farmersRegistration -->
-        <test-method signature="farmersRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.kisansarathi.testcases.Farmers_Registration@7674f035]" started-at="2024-10-07T14:29:52 IST" name="farmersRegistration" data-provider="FarmerRegistration" finished-at="2024-10-07T14:31:03 IST" duration-ms="71203" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Peter]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[25]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[9835980012]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Ty6273, KV Nagar, India]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[641653]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <input name="submit_basic" class="btn btn-primary btn-lg" id="btn_basic" type="submit" value="Save" disabled=""> is not clickable at point (292, 689). Other element would receive the click: <form enctype="multipart/form-data" id="validate123" action="/web/index.php?r=expert/farmerregister" method="post" novalidate="novalidate">...</form>
-  (Session info: chrome=129.0.6668.90)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SIVARAJ', ip: '192.168.31.190', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\sivar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3ce6f7343f5eee4e86511f08eaf003f7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input name="submit_basic" class="btn btn-primary btn-lg" id="btn_basic" type="submit" value="Save" disabled=""> is not clickable at point (292, 689). Other element would receive the click: <form enctype="multipart/form-data" id="validate123" action="/web/index.php?r=expert/farmerregister" method="post" novalidate="novalidate">...</form>
-  (Session info: chrome=129.0.6668.90)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SIVARAJ', ip: '192.168.31.190', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\sivar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3ce6f7343f5eee4e86511f08eaf003f7
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at com.kisansarathi.pageobjects.FarmerRegistration.saveButton(FarmerRegistration.java:206)
-at com.kisansarathi.testcases.Farmers_Registration.farmersRegistration(Farmers_Registration.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- farmersRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisansarathi.testcases.Farmers_Registration@7674f035]" started-at="2024-10-07T14:31:03 IST" name="tearDown" finished-at="2024-10-07T14:31:04 IST" duration-ms="492" status="PASS">
+        </test-method> <!-- dashboard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisansarathi.testcases.Dash_Board@7526515b]" started-at="2024-10-25T16:42:01 IST" name="tearDown" finished-at="2024-10-25T16:42:01 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.kisansarathi.testcases.Farmers_Registration -->
-      <class name="com.kisansarathi.testcases.Manage_MultiMedia">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kisansarathi.testcases.Manage_MultiMedia@74ea2410]" started-at="2024-10-07T14:35:22 IST" name="setUp" finished-at="2024-10-07T14:35:49 IST" duration-ms="26971" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="manageMultimedia()[pri:0, instance:com.kisansarathi.testcases.Manage_MultiMedia@74ea2410]" started-at="2024-10-07T14:35:49 IST" name="manageMultimedia" finished-at="2024-10-07T14:36:44 IST" duration-ms="55576" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- manageMultimedia -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisansarathi.testcases.Manage_MultiMedia@74ea2410]" started-at="2024-10-07T14:36:44 IST" name="tearDown" finished-at="2024-10-07T14:36:45 IST" duration-ms="310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.kisansarathi.testcases.Manage_MultiMedia -->
-      <class name="com.kisansarathi.testcases.Login_Page">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kisansarathi.testcases.Login_Page@76b1e9b8]" started-at="2024-10-07T14:37:38 IST" name="setUp" finished-at="2024-10-07T14:38:06 IST" duration-ms="27678" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginPage()[pri:0, instance:com.kisansarathi.testcases.Login_Page@76b1e9b8]" started-at="2024-10-07T14:38:06 IST" name="loginPage" finished-at="2024-10-07T14:38:47 IST" duration-ms="41201" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='LoginForm_username']' (tried for 30 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='LoginForm_username']' (tried for 30 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.kisansarathi.pageobjects.LoginPage.setmobileNO(LoginPage.java:36)
-at com.kisansarathi.testcases.Login_Page.loginPage(Login_Page.java:16)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='LoginForm_username']"}
-  (Session info: chrome=129.0.6668.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SIVARAJ', ip: '192.168.31.190', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\sivar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8384bd4f99307ec7d014d30dc6b477d5
-*** Element info: {Using=xpath, value=//input[@id='LoginForm_username']}
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 28 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisansarathi.testcases.Login_Page@76b1e9b8]" started-at="2024-10-07T14:38:47 IST" name="tearDown" finished-at="2024-10-07T14:38:48 IST" duration-ms="315" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.kisansarathi.testcases.Login_Page -->
-      <class name="com.kisansarathi.testcases.Individual_Message">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kisansarathi.testcases.Individual_Message@25ce9dc4]" started-at="2024-10-07T14:34:32 IST" name="setUp" finished-at="2024-10-07T14:34:58 IST" duration-ms="26457" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="individualMessage()[pri:0, instance:com.kisansarathi.testcases.Individual_Message@25ce9dc4]" started-at="2024-10-07T14:34:58 IST" name="individualMessage" finished-at="2024-10-07T14:35:21 IST" duration-ms="23168" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- individualMessage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kisansarathi.testcases.Individual_Message@25ce9dc4]" started-at="2024-10-07T14:35:21 IST" name="tearDown" finished-at="2024-10-07T14:35:22 IST" duration-ms="261" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.kisansarathi.testcases.Individual_Message -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.kisansarathi.testcases.Dash_Board -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

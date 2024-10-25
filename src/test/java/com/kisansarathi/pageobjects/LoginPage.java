@@ -2,6 +2,7 @@ package com.kisansarathi.pageobjects;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -33,6 +34,8 @@ public class LoginPage {
 	WebElement submitbutton;
 
 	public void setmobileNO(String mobilenumber) {
+		WebElement link = ldriver.findElement(By.xpath("//a[text()='Login']"));
+		link.click();
 		wait.until(ExpectedConditions.visibilityOf(mobileno));
 		mobileno.clear();
 		mobileno.sendKeys(mobilenumber);
