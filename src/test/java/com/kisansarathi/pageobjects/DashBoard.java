@@ -63,6 +63,7 @@ public class DashBoard {
 		fathersname.sendKeys(FatherName);
 		//ldriver.findElement(By.xpath("//input[@id='file']")).sendKeys(Profilepic);
 		ldriver.findElement(By.xpath("//input[@id='submit_btn']")).click();	
+		Thread.sleep(3000);)
 		
 		String profileupdate_successMess=ldriver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/form[1]")).getText();
 		System.out.println("Profile update Mess:"+profileupdate_successMess);
