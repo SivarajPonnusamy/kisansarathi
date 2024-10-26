@@ -52,7 +52,7 @@ public class DashBoard {
 			}
 		}
 	}
-	public void profileEditing(String MotherName,String FatherName) {
+	public void profileEditing(String MotherName,String FatherName) throws InterruptedException {
 		profileediting.click();
 		ldriver.findElement(By.xpath("//a[contains(text(),'Edit')]")).click();
 		WebElement mothersname= ldriver.findElement(By.xpath("//input[@id='Tbldispatchofficer_DoMotherName']"));
@@ -63,7 +63,7 @@ public class DashBoard {
 		fathersname.sendKeys(FatherName);
 		//ldriver.findElement(By.xpath("//input[@id='file']")).sendKeys(Profilepic);
 		ldriver.findElement(By.xpath("//input[@id='submit_btn']")).click();	
-		Thread.sleep(3000);)
+		Thread.sleep(3000);
 		
 		String profileupdate_successMess=ldriver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/form[1]")).getText();
 		System.out.println("Profile update Mess:"+profileupdate_successMess);
